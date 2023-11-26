@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      "baseUrl": "localhost:58217",
+      "moduleResolution": "NodeNext",
+      "target": "ES2022",
+      "sourceMap": true,
+      "outDir": "dist",
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*.ts", "src/index.ts", "lib/**/*.ts"]
+  }
+  
