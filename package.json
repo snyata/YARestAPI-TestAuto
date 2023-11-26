@@ -1,0 +1,23 @@
+{
+  "name": "microfocus-rest",
+  "version": "1.0.0",
+  "description": "An API client for populating Microfocus ALM with test cases from GitLab",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "microfocus",
+    "alm",
+    "gitlab",
+    "restfulapi"
+  ],
+  "author": "ahm992",
+  "license": "ISC"
+}

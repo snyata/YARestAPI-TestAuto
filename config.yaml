@@ -1,0 +1,20 @@
+# Sample YAML Configuration for ALM Uploader
+
+# Environment Variables
+credentials:
+  username: ${ENV_USERNAME} # Replace ENV_USERNAME with your actual environment variable for username
+  password: ${ENV_PASSWORD} # Replace ENV_PASSWORD with your actual environment variable for password
+
+# ALM Test Suite Folder Structure
+alm_test_suite:
+  project: "Project_Name"
+  domain: "Domain_Name"
+  test_set_folder_path: "Root\\Subfolder1\\Subfolder2" # Example path in ALM
+
+# Test Case Location for Injection
+test_case:
+  location: "cypress/final_tests" # Path to the test cases in your repository
+
+
+# Grab the folder structure etc from the API endpoints.
+
